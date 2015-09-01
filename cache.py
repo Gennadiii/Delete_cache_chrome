@@ -12,6 +12,8 @@ for filee in files:
 		count += 1
 
 if len(os.listdir()) == 5:
-	print('\n' + str(count) + ' files have been deleted')
+	input('\n' + str(count) + ' files have been deleted')
+else:
+	input('Something went wrong (')
 
 exit()
